@@ -684,14 +684,6 @@ footer a {
     top: 35px; }
   .feature-btn, .feature-btn-container {
     width: 100%; }
-  .cf {
-    width: 100%;
-    *zoom: 1; }
-  .product-item.slide {
-    display: inline-block; }
-  .product.cf.is-selected {
-    width: 40%;
-    text-align: center; }
   .priceRangeContainer {
     margin-left: 30px; }
   .footerContainer {
@@ -735,10 +727,14 @@ footer a {
     margin: 0 30px 0 0; }
   .cf {
     *zoom: 1;
-    width: 100%; }
+    width: 95%; }
   #map {
     display: none; } }
 
-@media screen and (max-width: 870) {
-  #map {
-    display: none; } }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 70px; }
+  .headKey img {
+    max-width: 75px; }
+  .headerText h2 {
+    font-size: 35px; } }
